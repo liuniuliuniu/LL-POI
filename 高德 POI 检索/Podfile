@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+target '高德 POI 检索' do
+pod 'AMap3DMap'
+pod 'YYModel'
+
+end
