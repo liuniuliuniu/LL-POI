@@ -29,7 +29,7 @@ static NSString *identifier = @"anno";
 
 
 //当前分类
-@property (nonatomic, copy) NSString *currentCategoryName;
+//@property (nonatomic, copy) NSString *currentCategoryName;
 
 
 @end
@@ -61,7 +61,6 @@ static NSString *identifier = @"anno";
 }
 
 
-
 #pragma mark - MKMapViewDelegate
 
 //当地图的区域发生变化后调用
@@ -88,9 +87,8 @@ static NSString *identifier = @"anno";
     //限定条数 条数太多会卡 限制一些个数
     [param setValue:@10 forKey:@"limit"];
     
-    
     //设置分类参数
-    [param setValue:self.currentCategoryName forKey:@"category"];
+//    [param setValue:self.currentCategoryName forKey:@"category"];
     //进行请求
     [[DPAPI new] requestWithURL:@"v1/business/find_businesses" params:param delegate:self];
 
@@ -103,8 +101,6 @@ static NSString *identifier = @"anno";
     
     //获取数据
     NSArray *dictArr = result[@"businesses"];
-
-    
     NSArray *businesses = [NSArray yy_modelArrayWithClass:[LLBusinessModel class] json:dictArr ];
     
     NSLog(@"%zd",businesses.count);
@@ -116,6 +112,13 @@ static NSString *identifier = @"anno";
     }
 }
 
+// 点击选中的是哪一个大头针
+- (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view{
+    
+    NSLog(@"%zd",mapView.centerCoordinate);
+    
+
+}
 
 
 

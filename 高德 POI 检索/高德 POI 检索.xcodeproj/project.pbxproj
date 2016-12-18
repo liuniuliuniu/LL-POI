@@ -16,7 +16,6 @@
 		8C934DAA1E06AE170098ABED /* DPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C934DA61E06AE170098ABED /* DPAPI.m */; };
 		8C934DAB1E06AE170098ABED /* DPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C934DA91E06AE170098ABED /* DPRequest.m */; };
 		8C934DB91E06C81E0098ABED /* LLBusinessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C934DB41E06C81E0098ABED /* LLBusinessModel.m */; };
-		8C934DBA1E06C81E0098ABED /* LLCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C934DB61E06C81E0098ABED /* LLCategoryModel.m */; };
 		8C934DBB1E06C81E0098ABED /* LLMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C934DB81E06C81E0098ABED /* LLMapViewController.m */; };
 		BE0E08474D450CBAA238D14A /* libPods-高德 POI 检索.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB93FC3E9B4C98D9B0BF11DB /* libPods-高德 POI 检索.a */; };
 /* End PBXBuildFile section */
@@ -40,8 +39,6 @@
 		8C934DA91E06AE170098ABED /* DPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRequest.m; sourceTree = "<group>"; };
 		8C934DB31E06C81E0098ABED /* LLBusinessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBusinessModel.h; sourceTree = "<group>"; };
 		8C934DB41E06C81E0098ABED /* LLBusinessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBusinessModel.m; sourceTree = "<group>"; };
-		8C934DB51E06C81E0098ABED /* LLCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCategoryModel.h; sourceTree = "<group>"; };
-		8C934DB61E06C81E0098ABED /* LLCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCategoryModel.m; sourceTree = "<group>"; };
 		8C934DB71E06C81E0098ABED /* LLMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMapViewController.h; sourceTree = "<group>"; };
 		8C934DB81E06C81E0098ABED /* LLMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMapViewController.m; sourceTree = "<group>"; };
 		9770B1D7ACC9DC1FCD703293 /* Pods-高德 POI 检索.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-高德 POI 检索.release.xcconfig"; path = "Pods/Target Support Files/Pods-高德 POI 检索/Pods-高德 POI 检索.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,8 +118,6 @@
 			children = (
 				8C934DB31E06C81E0098ABED /* LLBusinessModel.h */,
 				8C934DB41E06C81E0098ABED /* LLBusinessModel.m */,
-				8C934DB51E06C81E0098ABED /* LLCategoryModel.h */,
-				8C934DB61E06C81E0098ABED /* LLCategoryModel.m */,
 				8C934DB71E06C81E0098ABED /* LLMapViewController.h */,
 				8C934DB81E06C81E0098ABED /* LLMapViewController.m */,
 			);
@@ -272,7 +267,6 @@
 				8C934DAA1E06AE170098ABED /* DPAPI.m in Sources */,
 				8C934DB91E06C81E0098ABED /* LLBusinessModel.m in Sources */,
 				8C1BF8AD1E06226500DE28E5 /* ViewController.m in Sources */,
-				8C934DBA1E06C81E0098ABED /* LLCategoryModel.m in Sources */,
 				8C1BF8AA1E06226500DE28E5 /* AppDelegate.m in Sources */,
 				8C934DAB1E06AE170098ABED /* DPRequest.m in Sources */,
 				8C934DBB1E06C81E0098ABED /* LLMapViewController.m in Sources */,

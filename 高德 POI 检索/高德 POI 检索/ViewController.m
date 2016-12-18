@@ -21,10 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    
-    
-    
 }
 
 - (IBAction)searchBtn:(id)sender {
